@@ -1,0 +1,150 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 0% 15% 9%;
+}
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    margin-top:17%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+p {
+    color: grey;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+    color: white;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        margin: 5%;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.download-button{
+    margin: 2%;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    margin: 0;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
